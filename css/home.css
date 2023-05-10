@@ -1,0 +1,99 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    /* outline: red dashed 1px; */
+}
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+}
+
+img
+{
+    display: block;
+    max-width: 100%;
+}
+
+header
+{
+    border-bottom: #018136 solid .375rem;
+}
+
+.logo
+{
+
+    flex-direction: column;
+}
+
+.logo p
+{
+    display: flex;
+    font-size: .8rem;
+    justify-content: end;
+    padding-right: 2rem;
+}
+
+.navbar
+{
+    justify-content: space-between;
+}
+
+.navbar, .navbar div
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+}
+
+.navbar ul
+{
+    display: flex;
+}
+
+.navbar ul li
+{
+    /* display: block; */
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    padding: 0 .5rem;
+}
+
+.main
+{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer
+{
+    background-image: linear-gradient(45deg,#017874,#047b71,#018136, #018136, #018136);
+}
+
+.article
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.article > *
+{
+    flex-basis: 100%;
+}
